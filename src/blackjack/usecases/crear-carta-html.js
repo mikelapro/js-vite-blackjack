@@ -3,7 +3,7 @@
  * @param {String} carta 
  * @returns {HTMLImageElement} Imagen de retorno.
  */
-export const crearCartaHTML = (carta, ) => {
+export const crearCartaHTML = (carta) => {
     if (!carta) throw new Error('La carta es un argumento obligatorio.');
 
     // <img class="carta" src="assets/cartas/2C.png">
